@@ -15,13 +15,7 @@ In the future, it will automatically deploy the FRIEDA framework to manage data-
 
 ## Installation
 
-You need to be connected on Toulouse Grid5000 site first. 
-
-For the following commands, you'll need a proxy:
-
-    # Enable Proxy
-    export http_proxy=http://proxy:3128
-    export https_proxy=http://proxy:3128
+You need to be connected on Toulouse Grid5000 frontend first. 
 
 ### Installation of Bundler
 
