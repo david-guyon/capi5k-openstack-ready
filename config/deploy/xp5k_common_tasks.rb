@@ -2,7 +2,6 @@ task :xp5k do
   puts "  XP5K launched (submission and deployment)"
 end
 
-
 desc 'Submit jobs'
 task :submit do
   $myxp.submit
@@ -48,8 +47,6 @@ desc 'Prepare my stuff'
 task :prepare, :roles => [:controller] do
   set :user, "root"
   set :default_environment, {
-    "http_proxy"  => "http://proxy:3128",
-    "https_proxy" => "http://proxy:3128",
     "OS_USERNAME" => "test",
     "OS_PASSWORD" => "abc123",
     "OS_TENANT_NAME" => "test",
